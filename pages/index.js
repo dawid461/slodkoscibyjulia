@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Banner from "../components/home-page/banner/banner";
 import Navbar from "../components/navbar/navbar";
 
 const Home = () => {
@@ -11,23 +12,12 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav className="flex flex-col w-full items-center border-2">
+      <nav className="flex flex-col w-full items-center my-2 py-2">
         <Navbar />
       </nav>
 
-      <main className="flex flex-col w-full items-center border-2">
-        <p>
-          siemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaie
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-          iemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemaiemamaiemaiemaiemaiemaiema
-        </p>
+      <main className="flex flex-col w-full items-center my-8 xl:py-10 border-2">
+        <Banner />
       </main>
 
       <footer className="flex flex-col w-full items-center border-2">
