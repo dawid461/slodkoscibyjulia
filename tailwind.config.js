@@ -37,6 +37,10 @@ module.exports = {
       },
       backgroundImage: {
         profileImage: "url(/media/home-page/profile.webp)",
+        portfolioImage1: "url(/media/home-page/b-cake.webp)",
+        portfolioImage2: "url(/media/home-page/b-cake2.webp)",
+        portfolioImage3: "url(/media/home-page/box.webp)",
+        portfolioImage4: "url(/media/home-page/bomb-cake.webp)",
       },
     },
   },

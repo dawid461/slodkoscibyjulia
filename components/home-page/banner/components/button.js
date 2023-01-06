@@ -4,8 +4,8 @@ const ButtonBanner = () => {
     <>
       <a
         href="#about-me"
-        className="flex justify-center items-center w-36 h-11 border-2 border-white rounded-full bg-darkBrown hover:bg-primaryColor hover:scale-110
-        ease-out duration-200 mt-4"
+        className="flex justify-center items-center w-36 h-11 rounded-full bg-darkBrown hover:bg-primaryColor hover:scale-110
+        ease-out duration-200 mt-4 shadow-mediumGrey shadow-md"
       >
         <Image
           src="/media/home-page/arrow-down.svg"

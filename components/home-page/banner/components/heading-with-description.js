@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const TitleWithDescription = () => {
+const HeadingWithDescription = () => {
   return (
     <>
       <div className="flex">
@@ -32,4 +32,4 @@ const TitleWithDescription = () => {
     </>
   );
 };
-export default TitleWithDescription;
+export default HeadingWithDescription;

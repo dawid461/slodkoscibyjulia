@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutMe from "../components/home-page/about-me/about-me";
 import Banner from "../components/home-page/banner/banner";
 import Navbar from "../components/navbar/navbar";
 
@@ -16,8 +17,9 @@ const Home = () => {
         <Navbar />
       </nav>
 
-      <main className="flex flex-col w-full items-center my-8 xl:py-10 border-2">
+      <main className="flex flex-col w-full items-center my-8">
         <Banner />
+        <AboutMe />
       </main>
 
       <footer className="flex flex-col w-full items-center border-2">
