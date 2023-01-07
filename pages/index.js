@@ -1,7 +1,8 @@
 import Head from "next/head";
-import AboutMe from "../components/home-page/about-me/about-me";
-import Banner from "../components/home-page/banner/banner";
 import Navbar from "../components/navbar/navbar";
+import Banner from "../components/home-page/banner/banner";
+import AboutMe from "../components/home-page/about-me/about-me";
+import Offer from "../components/home-page/offer/offer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <main className="flex flex-col w-full items-center my-8">
         <Banner />
         <AboutMe />
+        <Offer />
       </main>
 
       <footer className="flex flex-col w-full items-center border-2">

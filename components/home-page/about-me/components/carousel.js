@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Carousel = () => {
   return (
     <>
@@ -29,6 +31,26 @@ const Carousel = () => {
             <p className="text-lg font-medium ml-7">urodzinowy</p>
           </div>
         </div>
+      </div>
+
+      <div className="flex justify-end sm:mt-7 xl:mt-10">
+        <button className="easy-out duration-200 hover:scale-125 mr-5">
+          <Image
+            src="/media/home-page/arrow-left.svg"
+            width={40}
+            height={25}
+            alt=""
+          />
+        </button>
+
+        <button className="easy-out duration-200 hover:scale-125 mr-5">
+          <Image
+            src="/media/home-page/arrow-right.svg"
+            width={64}
+            height={40}
+            alt=""
+          />
+        </button>
       </div>
     </>
   );
