@@ -46,8 +46,8 @@ const Carousel = () => {
         <button className="easy-out duration-200 hover:scale-125 mr-5">
           <Image
             src="/media/home-page/arrow-right.svg"
-            width={64}
-            height={40}
+            width={40}
+            height={25}
             alt=""
           />
         </button>

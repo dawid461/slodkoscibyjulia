@@ -53,3 +53,8 @@ body {
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 }
+/*---svg-color-contact-cards----*/
+.change-svg-color:hover svg{
+  fill: white;
+  color:white;
+}

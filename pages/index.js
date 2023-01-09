@@ -3,6 +3,8 @@ import Navbar from "../components/navbar/navbar";
 import Banner from "../components/home-page/banner/banner";
 import AboutMe from "../components/home-page/about-me/about-me";
 import Offer from "../components/home-page/offer/offer";
+import PriceList from "../components/home-page/price-list/price-list";
+import Contact from "../components/home-page/contact/contact";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
         <Banner />
         <AboutMe />
         <Offer />
+        <PriceList />
+        <Contact />
       </main>
 
       <footer className="flex flex-col w-full items-center border-2">
