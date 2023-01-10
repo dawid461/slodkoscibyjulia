@@ -13,12 +13,12 @@ const Cards = () => {
               width={50}
               height={50}
               alt=""
-              className="hover:fill-white"
             />
             <h4 className="text-xl font-semibold">Telefon</h4>
             <p className="text-lg font-medium">+48 515 070 548</p>
-            <span className="text-xs text-center mt-2">
-              Gdybym nie mogła odebrać proszę o zostawienie wiadomości SMS
+            <span className="text-xs text-center mt-2 px-1">
+              Gdybym nie mogła odebrać proszę o pozostawienie wiadomości
+              głosowej lub wysłanie SMS
             </span>
           </div>
         </a>
@@ -33,7 +33,6 @@ const Cards = () => {
               width={50}
               height={50}
               alt=""
-              className="hover:fill-white"
             />
             <h4 className="text-xl font-semibold">E-mail</h4>
             <p className="text-lg font-medium">kontakt@slodkoscibyjulia.pl</p>

@@ -9,7 +9,7 @@ const ListAndText = () => {
           <li>dekoracje</li>
           <li>media</li>
           <li>czas i praca</li>
-          <li>umiejętność oraz wiedza</li>
+          <li>umiejętności oraz wiedza</li>
         </ul>
 
         <p className="font-light leading-7 mt-8">
@@ -18,8 +18,8 @@ const ListAndText = () => {
           <br /> Nie korzystam z gotowców, a wszystkie półprodukty - frużeliny,
           słony karmel, pralinki, żelki itd. - wykonuję własnoręcznie. <br />
           Dekoracje z masy cukrowej również są wykonywane przeze mnie, co często
-          wymaga dużego nakładu pracy. <br />W celu poznania cennika zapraszam
-          do kontaktu!{" "}
+          wymaga dużego nakładu pracy. <br />W celu poznania szczegółowego
+          cennika zapraszam do kontaktu!{" "}
         </p>
       </div>
     </>

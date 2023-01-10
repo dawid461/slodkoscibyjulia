@@ -5,6 +5,7 @@ import AboutMe from "../components/home-page/about-me/about-me";
 import Offer from "../components/home-page/offer/offer";
 import PriceList from "../components/home-page/price-list/price-list";
 import Contact from "../components/home-page/contact/contact";
+import Footer from "../components/footer/footer";
 
 const Home = () => {
   return (
@@ -28,8 +29,8 @@ const Home = () => {
         <Contact />
       </main>
 
-      <footer className="flex flex-col w-full items-center border-2">
-        <h2>footer</h2>
+      <footer className="flex flex-col w-full items-center bg-footerBrown ">
+        <Footer />
       </footer>
     </>
   );
