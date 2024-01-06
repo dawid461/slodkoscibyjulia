@@ -33,7 +33,7 @@ const Carousel = () => {
         </div>
       </div>
 
-      <div className="flex justify-end sm:mt-7 xl:mt-10">
+      <div className="hidden justify-end sm:mt-7 xl:mt-10">
         <button className="easy-out duration-200 hover:scale-125 mr-5">
           <Image
             src="/media/home-page/arrow-left.svg"

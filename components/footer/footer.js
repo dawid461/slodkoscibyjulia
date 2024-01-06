@@ -17,10 +17,10 @@ const Footer = () => {
         <p className="text-center text-xs text-white mt-8">
           Made with 💛 by{" "}
           <a
-            href="https://dinkystudio.pl/"
+            href="https://nordbay.com/"
             className="hover:opacity-70 duration-300 ease-out"
           >
-            dinkystudio.pl
+            Nordbay.com
           </a>
         </p>
       </div>
